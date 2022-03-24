@@ -38,7 +38,7 @@ const SubjectSummary = (props) => {
                                 <th scope="row">AM</th>
                                 <td></td>
                                 <td></td>
-                                <td>OK</td>
+                                <td></td>
                                 <td></td>
                                 <td></td>
                             </tr>
@@ -47,7 +47,7 @@ const SubjectSummary = (props) => {
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>OK</td>
+                                <td></td>
                                 <td></td>
                             </tr>
                         </tbody>

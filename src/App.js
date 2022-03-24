@@ -1,11 +1,22 @@
 import "./App.css";
-import Routes from "./router/Routes";
+import styled from "styled-components";
+import SigninBox from "./components/SigninBox";
+import MyRoutes from "./router/MyRoutes";
+
+const AppContainer = styled.div`
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
 
 function App() {
     return (
-        <>
-            <Routes />
-        </>
+        <AppContainer>
+            <MyRoutes />
+        </AppContainer>
     );
 }
 

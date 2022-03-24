@@ -34,6 +34,24 @@ code {
     margin: auto; */
 }
 
+.ui-container {
+    width: 50%;
+    margin: auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: #e74c3c;
+    border-width: 1px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    min-width: 700px;
+}
+
 .course {
     background-color: #fff;
     border-radius: 10px;
@@ -57,7 +75,8 @@ code {
 }
 
 .course-preview {
-    background-color: #2a265f;
+    /* background-color: #2a265f; */
+    background-color: #e74c3c;
     color: #fff;
     padding: 30px;
     max-width: 250px;

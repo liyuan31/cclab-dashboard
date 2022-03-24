@@ -31,8 +31,8 @@ const Dashboard = () => {
             {!done ? (
                 <ReactLoading
                     type={"bars"}
-                    color={"#2a265f"}
-                    height={"20%"}
+                    color={"#e74c3c"}
+                    height={"10%"}
                     width={"20%"}
                 />
             ) : (
